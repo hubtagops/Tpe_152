@@ -1,0 +1,106 @@
+*{
+  height: auto;
+  width: auto;
+    padding:0px;
+}
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    background-color:beige ;
+    
+    color: black;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color:rgb(232, 232, 215);
+ }
+ 
+ .info h4{
+   font-size: 14px;
+   color: black;
+   margin-left: 10px;
+
+
+ }
+
+
+nav ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ nav ul li{
+   margin: 0 15px;
+   cursor: pointer;
+ }
+ nav ul li a{
+   text-decoration: none;
+   color:black
+   
+ }
+
+ .container{
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-template-rows: repeat(2, auto);
+  
+   gap: 20px 50px;
+
+
+ }
+
+.item1 img{
+  width: 400px;
+  height: 300px;
+}
+.item2 img{
+  width: 400px;
+  height: 300px;
+}
+.item3 img{
+  width: 400px;
+  height: 300px;
+}
+.item4 img{
+  width: 400px;
+  height: 250px;
+}
+.item5 img{
+  width: 400px;
+  height: 250px;
+}
+
+
+footer{
+    background-color:rgb(232, 232, 215);
+    color: black;
+    text-align: center;
+    width: 90%;
+    padding:10px 20px;
+    position: absolute;
+    bottom: auto;
+   
+   
+}
+.contact-info{
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+   
+}
+
+.social-media  a{
+ text-decoration: none;
+ color: black;
+
+}
+.social-media a:hover {
+    text-decoration: underline;
+}
